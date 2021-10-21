@@ -58,7 +58,7 @@
       <div class="mx-20">
         <h2 class="font-extrabold text-2xl py-5">所有商品</h2>
         <div class="grid grid-flow-col grid-cols-5 grid-rows-2 gap-4">
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -69,7 +69,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -80,7 +80,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -91,7 +91,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -102,7 +102,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -113,7 +113,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -124,7 +124,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -135,7 +135,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -146,7 +146,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
@@ -157,7 +157,7 @@
               加入購物車
             </button>
           </div>
-          <div class="shadow-xl w-full h-fill py-5 bg-white">
+          <div class="shadow-xl w-2/3 h-fill py-5 bg-white">
             <img
               src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               class="w-10 md:w-20 mx-auto"
