@@ -2,43 +2,23 @@
 
 <template>
   <div>
-    <section class="main">
-      <nav>
-        <a href="#"><img src="@/assets/images/logo.jpg" class="logo" /></a>
-        <ul class="navigation">
-          <li><a href="about.html">關於人晨</a></li>
-          <li><a href="#">教育課程</a></li>
-          <li><a href="#">商品資訊</a></li>
-          <li><a href="#">場地租借</a></li>
-          <li><a href="#">合作店家</a></li>
-          <li><a href="#">聯絡我們</a></li>
-        </ul>
-        <div class="search-container">
-          <form action="">
-            <input type="text" placeholder="搜尋" name="search" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-        </div>
-        <div class="login">
-          <ul class="mb-2">
-            <li>
-              <a href="#"><img src="logo.jpg" class="icon mr-1" />登入/註冊</a>
-            </li>
-            <li>
-              <a href="#"><img src="logo.jpg" class="icon mr-1" />會員中心</a>
-            </li>
-            <a href="#"><i class="fab fa-facebook mr-1 icon-big"></i></a>
-            <a href="#"><i class="fab fa-line mr-1 icon-big"></i></a>
-            <a href="#"><i class="fab fa-instagram mr-1 icon-big"></i></a>
-          </ul>
-        </div>
-      </nav>
-      <div class="content">
-        <div class="text">
-          <h1>身心<span>全面</span>健康</h1>
-          <h1><span>是我們的</span>終極目標</h1>
-          <a href="#" class="btn">了解更多...</a>
-        </div>
+    <section
+      class="
+        bg bg-no-repeat bg-fixed bg-cover
+        w-full
+        h-screen
+        flex
+        justify-items-center
+        items-start
+      "
+    >
+      <div class="font-extrabold text-4xl leading-relaxed">
+        <h1>
+          身心
+          <span>全面</span>健康
+        </h1>
+        <h1><span>是我們的</span>終極目標</h1>
+        <a href="#" class="btn">了解更多...</a>
       </div>
     </section>
     <section class="about">
@@ -64,61 +44,61 @@
       <h2>所有商品</h2>
       <div class="container">
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>1號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>2號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>3號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>4號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>5號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>6號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>7號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>8號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>9號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt="" />
+          <img src="logo.jpg" alt />
           <p>10號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
@@ -132,21 +112,21 @@
         <div class="circle">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
           <a href="#" class="btn-c">教育課程</a>
         </div>
         <div class="circle">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
           <a href="#" class="btn-c">產品資訊</a>
         </div>
         <div class="circle">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
           <a href="#" class="btn-c">場地租借</a>
         </div>
@@ -158,37 +138,37 @@
         <div class="circle-big">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
         <div class="circle-sm">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
         <div class="circle-sm">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
         <div class="circle-sm">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
         <div class="circle-sm">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
         <div class="circle-sm">
           <img
             src="https://images.pexels.com/photos/4061218/pexels-photo-4061218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-            alt=""
+            alt
           />
         </div>
       </div>
@@ -218,7 +198,7 @@
             width="400"
             height="300"
             style="border: 0"
-            allowfullscreen=""
+            allowfullscreen
             loading="lazy"
           ></iframe>
         </div>
@@ -269,38 +249,6 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="container">
-        <div class="d-flex-center">
-          <img src="logo.jpg" class="logo mb-2" />
-        </div>
-        <div class="row">
-          <div class="d-flex-center">
-            <ul class="mb-2">
-              <li><img src="logo.jpg" class="icon mr-1" />07-55507639</li>
-              <li><img src="logo.jpg" class="icon mr-1" />abc123@gmail.com</li>
-              <li>
-                <img
-                  src="logo.jpg"
-                  class="icon mr-1"
-                />高雄市美濃區中興路二段45號
-              </li>
-            </ul>
-          </div>
-          <div class="d-flex-center">
-            <ul class="mb-2">
-              <a href="#"><i class="fab fa-facebook mr-1 icon-big"></i></a>
-              <a href="#"><i class="fab fa-line mr-1 icon-big"></i></a>
-              <a href="#"><i class="fab fa-instagram mr-1 icon-big"></i></a>
-            </ul>
-          </div>
-        </div>
-        <div class="line"></div>
-        <div class="copyright mb-1 mt-1">
-          &#169; COPYRIGHT 人晨國際 2020 All right Reserved.
-        </div>
-      </div>
-    </footer>
   </div>
 </template>
 <style lang="scss">
@@ -325,7 +273,7 @@
   }
 }
 
-.main {
+.bg {
   background: -webkit-linear-gradient(
       top,
       rgba(255, 255, 255, 1),
@@ -336,159 +284,5 @@
   object-fit: cover;
   flex-direction: column;
   padding: 30px 100px;
-}
-.logo {
-  max-width: 90px;
-}
-.navigation {
-  display: flex;
-  li {
-    list-style: none;
-    a {
-      position: relative;
-      color: rgb(0, 0, 0);
-      text-decoration: none;
-      margin-left: 40px;
-      font-weight: bolder;
-    }
-  }
-}
-.content {
-  position: relative;
-  width: 100%;
-  .text {
-    width: 100%;
-    max-width: 600px;
-    padding-left: 50px;
-    padding-top: 150px;
-    h1 {
-      font-size: 3em;
-      font-weight: bold;
-    }
-    h1:nth-child(2) {
-      padding-left: 30px;
-      padding-top: 20px;
-    }
-    span {
-      color: #852d04;
-    }
-  }
-}
-
-.about {
-  position: relative;
-  left: 20%;
-  background-image: url("../bg-g.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 30px 100px;
-  .box {
-    margin-top: 5%;
-    background-color: #fff;
-    padding: 50px;
-    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
-    h2 {
-      padding-top: 50px;
-      p {
-        line-height: 100px;
-        padding-top: 50px;
-        font-weight: 100;
-      }
-    }
-  }
-}
-.product {
-  background: #fefdf5;
-  height: 1000px;
-  position: relative;
-  > h2 {
-    position: absolute;
-    top: 60px;
-    text-align: center;
-    @include -text-(3px solid #f5d57b, 3px solid #f5d57b);
-  }
-  a {
-    position: absolute;
-    bottom: 5%;
-    background: #fdfdf5;
-  }
-  .container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-.service {
-  background-image: url("../bg-g.png");
-  > h2 {
-    position: absolute;
-    top: 60px;
-    text-align: center;
-    @include -text-(3px solid #f5d57b, 3px solid #87947f);
-  }
-  > .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3em;
-    a {
-      display: flex;
-      position: relative;
-      bottom: 0;
-      width: 120px;
-      justify-content: center;
-      left: 30%;
-      top: 40px;
-    }
-  }
-}
-.value {
-  background-image: url("../bg-g.png");
-  height: 1000px;
-  > h2 {
-    position: absolute;
-    top: 60px;
-    text-align: center;
-    @include -text-(3px solid #87947f, 3px solid #87947f);
-  }
-}
-.contact {
-  background-image: url("https://images.pexels.com/photos/296282/pexels-photo-296282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
-  // background-color: rgba(255, 255, 255, 0.6);
-  // background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  height: 900px;
-  > h2 {
-    position: absolute;
-    top: 60px;
-    text-align: center;
-    @include -text-(3px solid #87947f, 3px solid #87947f);
-    margin-bottom: 0;
-  }
-  > p {
-    position: absolute;
-    top: 150px;
-    text-align: center;
-    margin-bottom: 0;
-    line-height: 25px;
-  }
-  > .formbox {
-    position: relative;
-    margin-top: 70px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 20px;
-    li {
-      display: flex;
-      align-items: center;
-    }
-  }
 }
 </style>

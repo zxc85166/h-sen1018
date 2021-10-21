@@ -1,5 +1,6 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 const links = [
   { id: 1, name: "關於人晨", path: "/about" },
   { id: 2, name: "教育課程", path: "/Foo" },
@@ -11,10 +12,11 @@ const links = [
 </script>
 
 <template>
-  <Navbar title="DemoApp" :links="links" />
-  <div class="pt-20 pl-20">
+  <Navbar :links="links" />
+  <div class="pt-20">
     <router-view />
   </div>
+  <Footer />
 </template>
 
 <style lang="scss"></style>

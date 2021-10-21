@@ -10,8 +10,8 @@ const props = defineProps({
     <button class="px-6 py-2 text-sm font-semibold uppercase rounded-sm">
       {{ props.text }}
     </button>
-    <button class="button button--action">
+    <!-- <button class="button button--action">
       {{ props.text }}
-    </button>
+    </button> -->
   </div>
 </template>
