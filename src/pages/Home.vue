@@ -10,6 +10,7 @@
         grid
         justify-items-stretch
         content-center
+        md:pl-20
       "
     >
       <div class="font-extrabold text-2xl md:text-5xl pl-20">
@@ -20,8 +21,8 @@
         <button class="button button--action">了解更多...</button>
       </div>
     </section>
-    <section class="about">
-      <div class="box">
+    <section class="about-img">
+      <div class="p-20 shadow-md bg-white w-1/2">
         <h2 class="mb-2">關於人晨</h2>
         <p>
           供給美容SPA, 身心領域的「營運者」、創業者, 予以引領, 顧問服務,
@@ -264,27 +265,6 @@
   </div>
 </template>
 <style lang="scss">
-@mixin -text-($border-top_before, $border-top_after) {
-  &:before {
-    content: " ";
-    border-top: $border-top_before;
-    display: block;
-    position: absolute;
-    width: 100px;
-    top: 5px;
-    left: 200%;
-  }
-  &:after {
-    content: " ";
-    border-top: $border-top_after;
-    display: block;
-    position: absolute;
-    width: 100px;
-    top: 5px;
-    right: 200%;
-  }
-}
-
 .bg {
   background: -webkit-linear-gradient(
       top,
@@ -295,6 +275,5 @@
       center bottom no-repeat;
   object-fit: cover;
   flex-direction: column;
-  padding: 30px 100px;
 }
 </style>

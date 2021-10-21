@@ -10,22 +10,24 @@ const props = defineProps({
 <template>
   <div class="fixed left-0 right-0 top-0 h-16 pl-3">
     <nav class="md:flex items-center container mx-auto justify-between">
-      <router-link to="/"
-        ><img src="@/assets/images/logo.jpg" class="w-20"
-      /></router-link>
+      <div>
+        <router-link to="/"
+          ><img src="@/assets/images/logo.jpg" class="w-20"
+        /></router-link>
+      </div>
       <div>
         <ul class="flex items-center space-x-14 text-sm pt-10">
           <li v-for="link in props.links" :key="link.id">
             <router-link
               :to="link.path"
-              class="font-bold hover:text-yellow-400 md:block"
+              class="font-extrabold hover:text-yellow-400 md:block"
             >
               {{ link.name }}
             </router-link>
           </li>
         </ul>
       </div>
-      <div class="flex items-center">
+      <div class="fixed flex items-center top-5 right-0 md:top-0">
         <Button text="登入/註冊" />
         <Button text="會員中心" />
       </div>
