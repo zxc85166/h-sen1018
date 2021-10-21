@@ -7,7 +7,10 @@
   .button {
     @apply px-6 py-2 text-sm font-semibold uppercase rounded-lg;
   }
-  .button--action {
-    @apply bg-green-200 text-white hover:bg-green-100 hover:text-black;
+  .button--green {
+    @apply bg-green-200 text-white hover:bg-white hover:border border-green-200 hover:text-green-200;
+  }
+  .button--greenOutline {
+    @apply text-green-200 bg-white border border-green-200 hover:bg-green-200 hover:text-white;
   }
 }

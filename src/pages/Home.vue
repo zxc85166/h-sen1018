@@ -18,12 +18,24 @@
         <h1 class="pl-20 py-7">
           <span class="text-red-800">是我們的</span>終極目標
         </h1>
-        <button class="button button--action ml-20">了解更多...</button>
+        <button class="button button--green ml-20">了解更多...</button>
       </div>
     </section>
-    <section class="about-img">
-      <div class="p-20 shadow-md bg-white w-1/2">
-        <h2 class="mb-2">關於人晨</h2>
+    <section class="bg-about-img bg-no-repeat bg-fixed bg-cover p-10">
+      <div
+        class="
+          p-10
+          md:p-20
+          shadow-2xl
+          bg-white
+          w-full
+          right-0
+          md:w-1/2
+          text-center
+          md:text-justify
+        "
+      >
+        <h2 class="mb-3 font-extrabold text-2xl">關於人晨</h2>
         <p>
           供給美容SPA, 身心領域的「營運者」、創業者, 予以引領, 顧問服務,
           以及完整資源教育
@@ -37,74 +49,132 @@
         <br />
         <p>都會在您的事業綻放光芒, 讓您以更喜悅輕鬆的方式創造豐盛！</p>
         <br />
-        <a href="#" class="btn-a">了解更多...</a>
+        <button class="button button--greenOutline ml-20 block">
+          了解更多...
+        </button>
       </div>
     </section>
-    <section class="product">
-      <h2>所有商品</h2>
-      <div class="container">
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>1號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
+    <section class="bg-yellow-50 p-10 text-center">
+      <div class="mx-20">
+        <h2 class="font-extrabold text-2xl py-5">所有商品</h2>
+        <div class="grid grid-flow-col grid-cols-5 grid-rows-2 gap-4">
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>1號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>2號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>3號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>4號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>5號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>6號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>7號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>8號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>9號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
+          <div class="shadow-xl w-full h-fill py-5 bg-white">
+            <img
+              src="https://images.pexels.com/photos/264870/pexels-photo-264870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              class="w-10 md:w-20 mx-auto"
+            />
+            <p>10號彩光花波-海底輪紅色-土的元素</p>
+            <span class="text-red-600">$2,800</span>
+            <button class="button button--greenOutline ml-20 block">
+              加入購物車
+            </button>
+          </div>
         </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>2號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>3號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>4號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>5號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>6號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>7號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>8號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>9號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
-        </div>
-        <div class="card">
-          <img src="@/assets/images/logo.jpg" alt />
-          <p>10號彩光花波-海底輪紅色-土的元素</p>
-          <span>$2,800</span>
-          <a href="#" class="btn-b">加入購物車</a>
+        <div class="flex justify-center pb-7 py-10">
+          <button class="button button--greenOutline bg-yellow-50">
+            看更多商品...
+          </button>
         </div>
       </div>
-      <a href="#" class="btn-b">看更多商品...</a>
     </section>
     <section class="service">
       <h2>我們提供的服務</h2>

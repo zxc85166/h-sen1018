@@ -7,8 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         "about-img":
-          "url('https://images.unsplash.com/photo-1634758696052-ed89125c792c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80')",
-        "footer-img": "url('/img/footer-texture.png')",
+          "url('https://images.pexels.com/photos/1001676/pexels-photo-1001676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')",
+        "footer-img":
+          "url('https://images.pexels.com/photos/5865/healthy-spring-young-green-5865.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
       },
       colors: {
         //主色綠色兩版本
