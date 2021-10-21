@@ -18,7 +18,7 @@
         <h1 class="pl-20 py-7">
           <span class="text-red-800">是我們的</span>終極目標
         </h1>
-        <button class="button button--action">了解更多...</button>
+        <button class="button button--action ml-20">了解更多...</button>
       </div>
     </section>
     <section class="about-img">
