@@ -184,12 +184,25 @@
       </p>
       <div class="formbox">
         <div>
-          <img src="logo.jpg" class="logo mb-2" />
+          <img src="@/assets/images/logo.jpg" class="logo mb-2" />
           <ul class="mb-2">
-            <li><img src="logo.jpg" class="icon mr-1" />07-55507639</li>
-            <li><img src="logo.jpg" class="icon mr-1" />abc123@gmail.com</li>
             <li>
-              <img src="logo.jpg" class="icon mr-1" />高雄市美濃區中興路二段45號
+              <img
+                src="@/assets/images/logo.jpg"
+                class="icon mr-1"
+              />07-55507639
+            </li>
+            <li>
+              <img
+                src="@/assets/images/logo.jpg"
+                class="icon mr-1"
+              />abc123@gmail.com
+            </li>
+            <li>
+              <img
+                src="@/assets/images/logo.jpg"
+                class="icon mr-1"
+              />高雄市美濃區中興路二段45號
             </li>
           </ul>
           <iframe
