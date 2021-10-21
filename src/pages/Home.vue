@@ -1,24 +1,23 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="pt-20">
     <section
       class="
         bg bg-no-repeat bg-fixed bg-cover
         w-full
         h-screen
-        flex
-        justify-items-center
-        items-start
+        grid
+        justify-items-stretch
+        content-center
       "
     >
-      <div class="font-extrabold text-4xl leading-relaxed">
-        <h1>
-          身心
-          <span>全面</span>健康
+      <div class="font-extrabold text-2xl md:text-5xl pl-20">
+        <h1>身心<span class="text-red-800">全面</span>健康</h1>
+        <h1 class="pl-20 py-7">
+          <span class="text-red-800">是我們的</span>終極目標
         </h1>
-        <h1><span>是我們的</span>終極目標</h1>
-        <a href="#" class="btn">了解更多...</a>
+        <button class="button button--action">了解更多...</button>
       </div>
     </section>
     <section class="about">

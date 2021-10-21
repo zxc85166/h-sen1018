@@ -5,9 +5,9 @@
 
 @layer components {
   .button {
-    @apply px-6 py-2 text-sm font-semibold uppercase rounded-sm;
+    @apply px-6 py-2 text-sm font-semibold uppercase rounded-lg;
   }
   .button--action {
-    @apply bg-indigo-300 text-indigo-800 hover:bg-indigo-200;
+    @apply bg-green-200 text-white hover:bg-green-100 hover:text-black;
   }
 }

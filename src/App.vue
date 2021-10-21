@@ -12,11 +12,13 @@ const links = [
 </script>
 
 <template>
-  <Navbar :links="links" />
-  <div class="pt-20">
-    <router-view />
+  <div class="min-w-full">
+    <Navbar :links="links" />
+    <div>
+      <router-view />
+    </div>
+    <Footer />
   </div>
-  <Footer />
 </template>
 
 <style lang="scss"></style>
