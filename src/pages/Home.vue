@@ -43,61 +43,61 @@
       <h2>所有商品</h2>
       <div class="container">
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>1號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>2號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>3號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>4號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>5號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>6號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>7號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>8號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>9號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
         </div>
         <div class="card">
-          <img src="logo.jpg" alt />
+          <img src="@/assets/images/logo.jpg" alt />
           <p>10號彩光花波-海底輪紅色-土的元素</p>
           <span>$2,800</span>
           <a href="#" class="btn-b">加入購物車</a>
@@ -184,23 +184,26 @@
       </p>
       <div class="formbox">
         <div>
-          <img src="@/assets/images/logo.jpg" class="logo mb-2" />
+          <img
+            src="@/assets/images/@/assets/images/logo.jpg"
+            class="logo mb-2"
+          />
           <ul class="mb-2">
             <li>
               <img
-                src="@/assets/images/logo.jpg"
+                src="@/assets/images/@/assets/images/logo.jpg"
                 class="icon mr-1"
               />07-55507639
             </li>
             <li>
               <img
-                src="@/assets/images/logo.jpg"
+                src="@/assets/images/@/assets/images/logo.jpg"
                 class="icon mr-1"
               />abc123@gmail.com
             </li>
             <li>
               <img
-                src="@/assets/images/logo.jpg"
+                src="@/assets/images/@/assets/images/logo.jpg"
                 class="icon mr-1"
               />高雄市美濃區中興路二段45號
             </li>
