@@ -141,6 +141,8 @@ const props = defineProps({
 <style lang="scss">
 .router-link-exact-active {
   color: #f1d065;
-  border-bottom: 3px solid #efbb28;
+  @media (min-width: 576px) {
+    border-bottom: 3px solid #efbb28;
+  }
 }
 </style>
