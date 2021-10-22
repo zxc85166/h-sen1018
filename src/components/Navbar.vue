@@ -8,28 +8,132 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="absolute max-w-6xl mx-auto px-4 justify-center">
-    <nav class="md:flex items-center">
-      <div>
-        <router-link to="/"
-          ><img src="@/assets/images/logo.jpg" class="w-20"
-        /></router-link>
+  <div class="absolute w-full px-4">
+    <nav class="relative md:flex items-center justify-center">
+      <!-- logo  -->
+      <div class="mx-auto md:grid place-content-center">
+        <router-link to="/">
+          <img src="@/assets/images/logo.jpg" class="w-10 md:w-20" />
+        </router-link>
       </div>
-      <div>
+      <!-- router-link -->
+      <div class="mx-auto">
         <ul class="flex items-center space-x-14 text-sm pt-10">
           <li v-for="link in props.links" :key="link.id">
             <router-link
               :to="link.path"
-              class="font-extrabold hover:text-yellow-400 md:block"
+              class="font-extrabold hover:text-yellow-400 md:block pb-3"
+              >{{ link.name }}</router-link
             >
-              {{ link.name }}
-            </router-link>
           </li>
         </ul>
       </div>
-      <div class="fixed flex items-center top-5 right-0 md:top-0">
-        <Button text="登入/註冊" />
-        <Button text="會員中心" />
+
+      <!-- 登入與搜尋 -->
+      <div class="relative gird">
+        <div class="flex">
+          <i
+            class="
+              fas
+              fa-sign-in-alt
+              text-xl text-green-600
+              pt-1
+              hover:text-green-700
+            "
+          ></i>
+          <Button text="登入/註冊" />
+          <i
+            class="
+              fas
+              fa-user-alt
+              text-xl text-green-600
+              pt-1
+              hover:text-green-700
+            "
+          ></i>
+          <Button text="會員中心" />
+          <a href="#">
+            <i
+              class="
+                fab
+                fa-facebook
+                mr-1
+                w-10
+                text-xl text-green-600
+                pt-1
+                hover:text-blue-600
+              "
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="
+                fab
+                fa-line
+                mr-1
+                w-10
+                text-xl text-green-600
+                pt-1
+                hover:text-green-700
+              "
+            ></i>
+          </a>
+          <a href="#">
+            <i
+              class="
+                fab
+                fa-instagram
+                mr-1
+                w-10
+                text-xl text-green-600
+                pt-1
+                hover:text-purple-700
+              "
+            ></i>
+          </a>
+        </div>
+        <div class="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
+          <div class="md:flex">
+            <div class="w-full p-3">
+              <div class="relative">
+                <i
+                  class="
+                    absolute
+                    fa fa-search
+                    text-gray-400
+                    top-3
+                    left-4
+                    hover:cursor-pointer
+                  "
+                ></i>
+                <input
+                  type="text"
+                  class="
+                    bg-white
+                    h-10
+                    w-full
+                    px-12
+                    border
+                    rounded-lg
+                    focus:outline-none
+                  "
+                  name
+                />
+                <span
+                  class="
+                    absolute
+                    top-2
+                    right-5
+                    border-l
+                    pl-4
+                    hover:cursor-pointer
+                  "
+                  >搜尋</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   </div>
@@ -37,5 +141,6 @@ const props = defineProps({
 <style lang="scss">
 .router-link-exact-active {
   color: #f1d065;
+  border-bottom: 3px solid #efbb28;
 }
 </style>

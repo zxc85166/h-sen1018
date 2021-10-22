@@ -2,6 +2,7 @@
 
 <template>
   <div>
-    <h1>空白頁</h1>
+    <div class="bg-white h-24"></div>
+    <section class="bg-about-img bg-no-repeat bg-fixed bg-cover"></section>
   </div>
 </template>

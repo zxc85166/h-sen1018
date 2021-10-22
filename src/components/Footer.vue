@@ -5,47 +5,52 @@ const props = defineProps({});
 </script>
 
 <template>
-  <footer class="bg-footer-img bg-no-repeat bg-fixed bg-cover">
-    <div class="container text-white flex justify-center items-center">
-      <div class="grid grid-cols-1">
-        <div class="items-center">
-          <router-link to="/">
-            <img src="@/assets/images/logo.jpg" class="w-20" />
-          </router-link>
+  <footer class="bg-footer-img bg-no-repeat bg-fixed bg-cover pt-5">
+    <div class="text-white grid place-content-center">
+      <div class="grid grid-cols-1 gap-5">
+        <div class="grid place-content-center">
+          <img src="@/assets/images/logo.jpg" class="w-20" />
         </div>
-        <div class="flex">
-          <ul class="mb-2">
-            <li>
-              <img src="@/assets/images/logo.jpg" class="w-3 mr-1" />07-55507639
-            </li>
-            <li>
-              <img
-                src="@/assets/images/logo.jpg"
-                class="w-3 mr-1"
-              />abc123@gmail.com
-            </li>
-            <li>
-              <img
-                src="@/assets/images/logo.jpg"
-                class="w-3 mr-1"
-              />高雄市美濃區中興路二段45號
-            </li>
-          </ul>
+        <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-3 text-center">
+          <div>
+            <i class="fas fa-phone-alt"></i>
+            07-5507639
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            abc123@gmail.com
+          </div>
+          <div>
+            <i class="fas fa-map-marker-alt"></i>
+            高雄市美濃區中興路二段45號
+          </div>
         </div>
-        <div class="divide-y-2 divide-white">
-          <ul class="mb-2">
+        <div class="divide-y-2 divide-white text-center">
+          <ul class="text-center pb-5">
             <a href="#">
-              <i class="fab fa-facebook mr-1 w-3-big"></i>
+              <i
+                class="fab fa-facebook mr-1 w-20 text-4xl hover:text-blue-600"
+              ></i>
             </a>
             <a href="#">
-              <i class="fab fa-line mr-1 w-3-big"></i>
+              <i
+                class="fab fa-line mr-1 w-20 text-4xl hover:text-green-600"
+              ></i>
             </a>
             <a href="#">
-              <i class="fab fa-instagram mr-1 w-3-big"></i>
+              <i
+                class="
+                  fab
+                  fa-instagram
+                  mr-1
+                  w-20
+                  text-4xl
+                  hover:text-purple-700
+                "
+              ></i>
             </a>
           </ul>
-
-          <div class="mb-1 mt-1">
+          <div class="py-3 text-right mt-1 right-0">
             COPYRIGHT 人晨國際 2020 All right Reserved.
           </div>
         </div>

@@ -10,8 +10,5 @@ const props = defineProps({
     <button class="button">
       {{ props.text }}
     </button>
-    <!-- <button class="button button--action">
-      {{ props.text }}
-    </button> -->
   </div>
 </template>

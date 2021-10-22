@@ -7,9 +7,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         "about-img":
-          "url('https://images.pexels.com/photos/1001676/pexels-photo-1001676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')",
+          "url('https://images.pexels.com/photos/1001676/pexels-photo-1001676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920')",
         "footer-img":
-          "url('https://images.pexels.com/photos/5865/healthy-spring-young-green-5865.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
+          "url('https://images.pexels.com/photos/5865/healthy-spring-young-green-5865.jpg?auto=compress&cs=tinysrgb&dpr=2&w=1920')",
+        "contact-img":
+          "url('https://images.pexels.com/photos/296282/pexels-photo-296282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920')",
       },
       colors: {
         //主色綠色兩版本
