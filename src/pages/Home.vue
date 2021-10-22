@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="pt-20">
+  <div>
     <section
       class="
         bg bg-no-repeat bg-fixed bg-cover

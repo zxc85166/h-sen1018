@@ -8,8 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="fixed left-0 right-0 top-0 h-16 pl-3">
-    <nav class="md:flex items-center container mx-auto justify-between">
+  <div class="absolute max-w-6xl mx-auto px-4 justify-center">
+    <nav class="md:flex items-center">
       <div>
         <router-link to="/"
           ><img src="@/assets/images/logo.jpg" class="w-20"
