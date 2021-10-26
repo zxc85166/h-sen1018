@@ -1,6 +1,6 @@
 <script setup>
 import { defineProps, ref } from "vue";
-import Button from "./forms/Button.vue";
+import Button from "./login/Button.vue";
 
 const props = defineProps({
   links: { type: Array, required: true },
@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div class="absolute w-full px-4">
-    <nav class="relative md:flex items-center justify-center">
+    <nav class="relative md:flex items-stretch justify-center">
       <!-- logo  -->
       <div class="mx-auto md:grid place-content-center">
         <router-link to="/">
@@ -18,7 +18,17 @@ const props = defineProps({
       </div>
       <!-- router-link -->
       <div class="mx-auto">
-        <ul class="flex items-center space-x-14 text-sm pt-10">
+        <ul
+          class="
+            flex
+            items-center
+            space-x-12
+            md:space-x-14
+            text-sm
+            pt-5
+            md:pt-10
+          "
+        >
           <li v-for="link in props.links" :key="link.id">
             <router-link
               :to="link.path"
@@ -30,13 +40,25 @@ const props = defineProps({
       </div>
 
       <!-- 登入與搜尋 -->
-      <div class="relative gird">
-        <div class="flex">
+      <div class="gird">
+        <div
+          class="
+            flex
+            items-center
+            absolute
+            md:relative
+            top-0
+            md:right-0
+            right-[-12%]
+          "
+        >
           <i
             class="
               fas
               fa-sign-in-alt
-              text-xl text-green-600
+              text-xl
+              mr-2
+              text-green-600
               pt-1
               hover:text-green-700
             "
@@ -46,7 +68,9 @@ const props = defineProps({
             class="
               fas
               fa-user-alt
-              text-xl text-green-600
+              text-xl
+              mr-2
+              text-green-600
               pt-1
               hover:text-green-700
             "

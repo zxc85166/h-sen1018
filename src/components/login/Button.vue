@@ -7,8 +7,6 @@ const props = defineProps({
 
 <template>
   <div>
-    <button class="button">
-      {{ props.text }}
-    </button>
+    <button class="buttons font-semibold mr-2">{{ props.text }}</button>
   </div>
 </template>
