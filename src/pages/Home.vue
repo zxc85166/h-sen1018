@@ -321,7 +321,7 @@
         >
           <div class="grid text-justify md:grid-cols-2 gap-4">
             <div class="grid gap-4">
-              <img src="@/assets/images/logo.jpg" class="w-10 mb-2" />
+              <img src="@/assets/images/logo.png" class="w-10 mb-2" />
               <div>
                 <i class="fas fa-phone-alt"></i>
                 07-5507639
