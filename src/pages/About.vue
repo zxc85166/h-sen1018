@@ -3,16 +3,16 @@
 <template>
   <div id="about">
     <div class="bg-white h-72 md:h-24"></div>
-    <section class="bg-about-img bg-no-repeat bg-fixed bg-cover">
+    <section class="about_bg bg-cover">
       <div class="font-extrabold text-2xl md:text-5xl pl-20">
         <h1 class="text-white stroke-1 drop-shadow-md h-72 flex items-center">
           關於人晨
         </h1>
       </div>
     </section>
-    <section class="bg-contact-img bg-no-repeat bg-fixed bg-cover py-3 pb-32">
+    <section class="bg-about-img bg-cover bg-center py-3 pb-32">
       <p class="pl-20">首頁 》關於人晨</p>
-      <div class="grid grid-rows-1">
+      <div class="flex">
         <div class="ml-auto md:ml-[20%] font-black mt-20">
           <h2 class="mb-5 text-lg md:text-3xl">
             供給<span class="text-yellow-400">美容SPA</span>、
@@ -31,18 +31,19 @@
           <p>都會在您的事業綻放光芒, 讓您以更喜悅輕鬆的方式創造豐盛！</p>
           <br />
         </div>
-        <div class="md:absolute right-0">
-          <img
-            src="https://images.pexels.com/photos/6663374/pexels-photo-6663374.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=750"
-            alt=""
-            class="w-full"
-          />
+        <div class="flex justify-end w-[915px] h-[548px]">
+          <img src="@/assets/images/massage.png" alt="" class="w-full" />
         </div>
       </div>
     </section>
-    <section class="bg-yellow-50 bg-no-repeat bg-fixed bg-cover pt-7 pb-32">
-      <div class="grid grid-rows-1">
-        <div class="ml-auto md:ml-[50%] font-black mt-20">
+    <section
+      class="bg-yellow-50 bg-cover pt-7 pb-32 h-[893px] grid grid-cols-2"
+    >
+      <div class="justify-start h-[652px] w-[869px]">
+        <img src="@/assets/images/stone.png" alt="" class="w-full bg-cover" />
+      </div>
+      <div class="justify-end">
+        <div class="font-black mt-20">
           <h2 class="mb-5 text-3xl">我們所關注的</h2>
           <br />
           <div class="flex items-center pt-6">
@@ -78,20 +79,18 @@
             </p>
           </div>
         </div>
-
-        <div class="md:absolute left-0">
-          <img
-            src="https://images.pexels.com/photos/6663374/pexels-photo-6663374.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=750"
-            alt=""
-            class="w-full"
-          />
-        </div>
       </div>
     </section>
   </div>
 </template>
 <style lang="scss" scoped>
 #about {
+  .bg-about-img {
+    background-image: url("@/assets/images/greenBg.png");
+  }
+  .about_bg {
+    background-image: url("@/assets/images/about.png");
+  }
   h1 {
     -webkit-text-stroke: 0.5px black;
   }

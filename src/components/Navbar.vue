@@ -12,9 +12,9 @@ const props = defineProps({
     <nav class="relative md:flex items-stretch justify-center">
       <!-- logo  -->
       <div class="mx-auto md:grid place-content-center">
-        <router-link to="/">
+        <a href="/">
           <img src="@/assets/images/logo.png" class="w-20 md:w-40" />
-        </router-link>
+        </a>
       </div>
       <!-- router-link -->
       <div class="mx-auto">
