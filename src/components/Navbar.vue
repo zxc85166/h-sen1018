@@ -40,7 +40,7 @@ const props = defineProps({
       </div>
 
       <!-- 登入與搜尋 -->
-      <div class="gird">
+      <div class="gird gap-3">
         <div
           class="
             flex

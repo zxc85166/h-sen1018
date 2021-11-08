@@ -4,7 +4,7 @@
   <div id="about">
     <div class="bg-white h-72 md:h-24"></div>
     <section class="about_bg bg-cover">
-      <div class="font-extrabold text-2xl md:text-5xl pl-20">
+      <div class="font-extrabold text-2xl md:text-5xl pl-[10%]">
         <h1 class="text-white stroke-1 drop-shadow-md h-72 flex items-center">
           關於人晨
         </h1>
