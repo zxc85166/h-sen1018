@@ -4,7 +4,8 @@
   <div id="home">
     <section
       class="
-        bg bg-no-repeat bg-fixed bg-cover
+        home_bg
+        bg-no-repeat bg-fixed bg-cover
         w-full
         h-screen
         grid
@@ -122,12 +123,7 @@
       </div>
     </section>
     <section
-      class="
-        bg-about-img bg-no-repeat bg-fixed bg-cover
-        p-10
-        text-center
-        md:px-[20%]
-      "
+      class="bg-about-img bg-center bg-cover p-10 text-center md:px-[20%]"
     >
       <!-- 我們提供的服務 -->
       <div>
@@ -402,16 +398,14 @@
 </template>
 <style lang="scss" scoped>
 #home {
-  .bg {
-    background: -webkit-linear-gradient(
-        top,
-        rgba(255, 255, 255, 1),
-        rgba(255, 255, 255, 0)
-      ),
-      url("https://images.pexels.com/photos/70741/cereals-field-ripe-poppy-70741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-        center bottom no-repeat;
-    object-fit: cover;
-    flex-direction: column;
+  .home_bg {
+    background-image: url("@/assets/images/home.png");
+  }
+  .bg-contact-img {
+    background-image: url("@/assets/images/hand.png");
+  }
+  .bg-about-img {
+    background-image: url("@/assets/images/greenBg.png");
   }
   h2 {
     &:before {
