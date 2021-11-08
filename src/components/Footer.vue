@@ -5,7 +5,7 @@ const props = defineProps({});
 </script>
 
 <template>
-  <footer class="bg-footer-img bg-no-repeat bg-fixed bg-cover pt-5">
+  <footer class="bg-footer-img bg-cover pt-5">
     <div class="text-white grid place-content-center">
       <div class="grid grid-cols-1 gap-5">
         <div class="grid place-content-center">
@@ -58,4 +58,8 @@ const props = defineProps({});
     </div>
   </footer>
 </template>
-<style lang="scss"></style>
+<style lang="scss">
+.bg-footer-img {
+  background-image: url("@/assets/images/footer.png");
+}
+</style>

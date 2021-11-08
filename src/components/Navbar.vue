@@ -32,7 +32,7 @@ const props = defineProps({
           <li v-for="link in props.links" :key="link.id">
             <router-link
               :to="link.path"
-              class="font-extrabold hover:text-yellow-400 md:block pb-3"
+              class="font-extrabold text-lg hover:text-yellow-400 md:block pb-3"
               >{{ link.name }}</router-link
             >
           </li>
