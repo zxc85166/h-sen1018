@@ -9,7 +9,7 @@ const props = defineProps({});
     <div class="text-white grid place-content-center">
       <div class="grid grid-cols-1 gap-5">
         <div class="grid place-content-center">
-          <img src="@/assets/images/logo.jpg" class="w-20" />
+          <img src="@/assets/images/logo.png" class="w-[277px]" />
         </div>
         <div class="grid grid-cols-1 grid-rows-1 md:grid-cols-3 text-center">
           <div>
