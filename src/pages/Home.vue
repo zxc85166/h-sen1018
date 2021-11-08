@@ -297,13 +297,12 @@
             >_____</span
           >
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam
-          dolorum debitis, eaque in omnis.
+        <p class="font-black">
+          若有任何疑問，歡迎您來信或來電與我們聯絡。（週一～週五09:00-12:00、13:30-17:30
+          ，遇國定假日休）。
         </p>
-        <p class="pb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam
-          dolorum debitis, eaque in omnis.
+        <p class="pb-5 font-black">
+          請您填寫下面的表單，以便讓我們了解您的期望，我們會將儘速與您連絡。
         </p>
         <div
           class="
